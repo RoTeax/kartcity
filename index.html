@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kart City Raceways</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Robby Deryckere">
+		<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+		<link type="text/css" rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+	</head>
+	
+	<body>
+		
+		<div id="main" class="cf">
+			<div id="topbar" class="cf">
+				<div id="leftSide" class="cf">
+					<a href="index.html"><img src="images/kartcity_logo.png" alt="Logo"></a>
+				</div>
+				<div id="rightSide" class="cf">
+					<div id="SocialMedia" class="cf">
+						<p><a href="https://twitter.com/KartCityRaceway"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/kartcitydublin"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a></p>
+					</div>
+					<div id="headerContact" class="cf">
+						<p class="bold">01 842 6144</p>
+						<p class="bold">info@kart-city.com</p>
+					</div>
+				</div>
+			</div>
+			<div id="navbar" class="cf">
+				<div id="hamburger">
+					<button class="hamburger">&#9776;</button>
+					<button class="cross">&#735;</button>
+				</div>
+				
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="prices.html">Prices</a></li>
+						<li><a href="packages.html">Packages</a></li>
+						<li><a href="tracks.html">Tracks</a></li>
+						<li><a href="karts.html">Karts</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="location.html">Location</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="mainSection" class="cf">
+				<a href="stagparties.html"><div class="packages cf">
+					<h4 class="bold">Stag Parties</h4>
+					<img src="images/stag_parties.jpg" alt="Stag Parties">
+				</div></a>
+				
+				<a href="henparties.html"><div class="packages cf">
+					<h4 class="bold">Hen Parties</h4>
+					<img src="images/hen_parties.jpg" alt="Hen Parties">
+				</div></a>
+				
+				<a href="schoolgroups.html"><div class="packages cf">
+					<h4 class="bold">School Groups</h4>
+					<img src="images/school_groups.jpg" alt="School Groups">
+				</div></a>
+				
+				<a href="bdparties.html"><div class="packages cf">
+					<h4 class="bold">Birthday Parties</h4>
+					<img src="images/birthday_parties.jpg" alt="Birthday Parties">
+				</div></a>
+				
+				<a href="teambuilding.html"><div class="packages cf">
+					<h4 class="bold">Team Building</h4>
+					<img src="images/team_building.jpg" alt="Team Building">
+				</div></a>
+				
+				<div id="bookNow" class="cf">
+					<div id="bookNowL" class="cf">
+						<h2>Welcome to Kart City Raceways</h2>
+					</div>
+					
+					<div id="bookNowB" class="cf">
+						<a href="location.html"><button>BOOK NOW</button></a>
+					</div>
+					
+					<div id="bookNowR" class="cf">
+						<h2>Experience the fastest karting in Dublin</h2>
+					</div>
+				</div>
+				
+				<div id="mainContent" class="cf">
+					<div id="intro" class="cf">
+						<h2 class="bold"> Welcome to Kart City . . . </h2>
+						<p> . . . . the home of outdoor karting in Dublin. Come and race on our 1km purpose built track, which is also fully flood lit for night racing. Here at Kart City we have the race package for you, if you are a solo driver looking to test your skills against the clock or you want to take your co-workers out to race head to head in a full Grand Prix event. </p>
+					</div>
+					
+					<div id="contactForm" class="cf">
+						<form method="post" action="process_contact.php" novalidate="novalidate">
+							<h3>Enquiry Form</h3>
+							<fieldset>
+								<p>
+									<label for="cname">Name*</label>
+									<br>
+									<input id="cname" minlength="2" name="name" type="text" placeholder="Your Name" required="">
+								</p>
+								<br>
+								<p>
+									<label for="bookingtime">Preferred Date &amp; Time</label>
+									<br>
+									<input id="bookingtime" name="bookingtime" type="text" placeholder="Date and Time">
+								</p>
+								<br>
+								<p>
+									<label for="groupsize">Group Size</label>
+									<br>
+									<input id="groupsize" name="groupsize" type="text" placeholder="How many people">
+								</p>
+								<br>
+								<p>
+									<label for="phone">Phone Number</label>
+									<br>
+									<input id="phone" name="phone" type="text" placeholder="Phone Number">
+								</p>
+								<br>
+								<p class="invisible">
+									<label for="validate">Leave this Field blank</label>
+									<br>
+									<input id="validate" name="validate" type="text" placeholder="This is just to check if you are a robot">
+								</p>
+								<p>
+									<label for="cemail">Email Address*</label>
+									<br>
+									<input id="cemail" name="email" type="email" placeholder="Your Email Address" required="">
+								</p>
+								<br>
+								<p>
+									<label for="race">Preferred Race</label>
+									<br>
+									<input id="race" name="race" type="text" placeholder="Race Type">
+								</p>
+								<br>
+								<p>
+									<label for="ccomment">Your comment</label>
+									<br>
+									<input id="ccomment" name="ccomment" type="text" placeholder="Special Requests?">
+								</p>
+								<br>
+
+								<input type="submit" name="submit" id="submit" value="Send">
+							</fieldset>
+						</form>
+					</div>
+					
+					<div id="openHours" class="cf">
+						<p> We are only 5 mins from Dublin airport and 20 mins from the City Centre with great transport links. All sessions are marshalled by fully trained staff who are here to make sure you have a fun and safe race. So call or email us today to book your race! </p>
+						<br>
+						<p class="center bold"> Opening hours </p>
+						<p class="center"> Monday – Friday | <span class="bold">11am - 9pm</span> </p>
+						<p class="center"> Saturday - Sunday | <span class="bold">10am - 9pm</span> </p>
+						<p class="center"> Please note we can open later upon request. </p>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p> To book, call <span class="bold">01 8426144</span>, <span class="bold">01 8426322</span> or email <a href="mailto:info@kart-city.com" class="bold">info@kart-city.com</a> </p>
+				<br>
+				<p> SEC Kart Ltd, trading as Kart City Raceway, Registered Company Number: 527111 </p>
+				<p> Old Airport Road, Santry, Dublin 9 </p>
+				<br>
+				<p> This responsive website was designed and created by <span class="bold">Robby Deryckere</span> </p>
+			</footer>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

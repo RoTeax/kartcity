@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kart City Raceways</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Robby Deryckere">
+		<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+		<link type="text/css" rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+	</head>
+	
+	<body>
+		
+		<div id="main" class="cf">
+			<div id="topbar" class="cf">
+				<div id="leftSide" class="cf">
+					<a href="index.html"><img src="images/kartcity_logo.png" alt="Logo"></a>
+				</div>
+				<div id="rightSide" class="cf">
+					<div id="SocialMedia" class="cf">
+						<p><a href="https://twitter.com/KartCityRaceway"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/kartcitydublin"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a></p>
+					</div>
+					<div id="headerContact" class="cf">
+						<p class="bold">01 842 6144</p>
+						<p class="bold">info@kart-city.com</p>
+					</div>
+				</div>
+			</div>
+			<div id="navbar" class="cf">
+				<div id="hamburger">
+					<button class="hamburger">&#9776;</button>
+					<button class="cross">&#735;</button>
+				</div>
+				
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="prices.html">Prices</a></li>
+						<li><a href="packages.html">Packages</a></li>
+						<li><a href="tracks.html">Tracks</a></li>
+						<li><a href="karts.html">Karts</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="location.html">Location</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="mainSection" class="cf">
+				<div id="locContact" class="cf">
+					<h2 class="bold">Contact Kart City</h2>
+					<br>
+					<p>To book call 01 842 6144 or email info@kart-city.com</p>
+					<br>
+					<p>Our address: Old Airport Road, Santry, Dublin 9</p>
+					<br>
+					<p>Sat Nav Co-Ordinates: M 53.4111, W -6.242</p>
+				</div>
+				
+				<div id="contactForm" class="cf">
+					<form method="post" action="process_contact.php" novalidate="novalidate">
+						<h3>Enquiry Form</h3>
+						<fieldset>
+							<p>
+								<label for="cname">Name*</label>
+								<br>
+								<input id="cname" minlength="2" name="name" type="text" placeholder="Your Name" required="">
+							</p>
+							<br>
+							<p>
+								<label for="bookingtime">Preferred Date &amp; Time</label>
+								<br>
+								<input id="bookingtime" name="bookingtime" type="text" placeholder="Date and Time">
+							</p>
+							<br>
+							<p>
+								<label for="groupsize">Group Size</label>
+								<br>
+								<input id="groupsize" name="groupsize" type="text" placeholder="How many people">
+							</p>
+							<br>
+							<p>
+								<label for="phone">Phone Number</label>
+								<br>
+								<input id="phone" name="phone" type="text" placeholder="Phone Number">
+							</p>
+							<br>
+							<p class="invisible">
+								<label for="validate">Leave this Field blank</label>
+								<br>
+								<input id="validate" name="validate" type="text" placeholder="This is just to check if you are a robot">
+							</p>
+							<p>
+								<label for="cemail">Email Address*</label>
+								<br>
+								<input id="cemail" name="email" type="email" placeholder="Your Email Address" required="">
+							</p>
+							<br>
+							<p>
+								<label for="race">Preferred Race</label>
+								<br>
+								<input id="race" name="race" type="text" placeholder="Race Type">
+							</p>
+							<br>
+							<p>
+								<label for="ccomment">Your comment</label>
+								<br>
+								<input id="ccomment" name="ccomment" type="text" placeholder="Special Requests?">
+							</p>
+							<br>
+							<input type="submit" name="submit" id="submit" value="Send">
+						</fieldset>
+					</form>
+				</div>
+				
+				<div id="locMap" class="cf">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.2173468666615!2d-6.245152684159121!3d53.410938979992665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486711daae036c23%3A0xb8a180cd37914270!2sKart+City+Ltd!5e0!3m2!1ssv!2sie!4v1506421394745" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<footer>
+				<p> To book, call <span class="bold">01 8426144</span>, <span class="bold">01 8426322</span> or email <a href="mailto:info@kart-city.com" class="bold">info@kart-city.com</a> </p>
+				<br>
+				<p> SEC Kart Ltd, trading as Kart City Raceway, Registered Company Number: 527111 </p>
+				<p> Old Airport Road, Santry, Dublin 9 </p>
+				<br>
+				<p> This responsive website was designed and created by <span class="bold">Robby Deryckere</span> </p>
+			</footer>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

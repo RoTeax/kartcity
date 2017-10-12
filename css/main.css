@@ -1,0 +1,778 @@
+/**************************/
+/* KCR -  Main Stylesheet */
+/**************************/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html 
+{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after 
+{
+  box-sizing: inherit;
+}
+
+/* Custom CSS */
+
+body
+{
+	background-image: url(../images/sodi-kart-racing-tracks.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	color: white;
+	font-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#main
+{
+	width: 80%;
+	max-width: 1536px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.75);
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+/* Logo */
+
+#main #topbar #leftSide
+{
+	float: left;
+	width: 50%;
+}
+
+#main #topbar #leftSide img
+{
+	margin: 10px;
+	width: 100%;
+	height: 200px;
+}
+
+/* Contacting KCR */
+
+#main #topbar #rightSide
+{
+	float: right;
+	width: 40%;
+}
+
+#main #topbar #rightSide a
+{
+	float: left;
+	margin: 5px;
+	font-size: 2em;
+}
+
+/* Social Media Links */
+
+#SocialMedia
+{
+	float: right;
+	text-align: center;
+	line-height: 40px;
+}
+
+.twitter
+{
+	color: white;
+	width: 35px;
+	padding: 1px 0;
+	background-color: aqua;
+	border-radius: 5px;
+}
+
+.facebook
+{
+	color: white;
+	width: 35px;
+	padding: 2px 0;
+	background-color: navy;
+	border-radius: 5px;
+}
+
+.twitter:hover
+{
+	color: aqua;
+	background-color: white;
+}
+
+.facebook:hover
+{
+	color: navy;
+	background-color: white;	
+}
+
+#headerContact
+{
+	margin: 10px;
+	float: right;
+}
+
+#headerContact p	
+{
+	font-size: 1.5em;
+	text-align: right;
+}
+
+#main #navbar nav
+{
+	width: 100%;
+	float: left;
+	border-top: 2px solid red;
+	border-radius: 15px 15px 0 0;
+	font-family: 'Racing Sans One', cursive;
+	box-shadow: 0px 5px 10px #222;
+}
+
+#main #navbar nav ul
+{
+	width: 100%;
+	float: left;
+	border-top: 2px solid yellow;
+	border-radius: 15px 15px 0 0;
+}
+
+#main #navbar nav ul li
+{
+	width: 11.78571428571429%;
+	margin: 1.25%;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+
+#main #navbar nav ul li a
+{
+	float: left;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	border-radius: 20px;
+	border: 1px solid yellow;
+	box-shadow: 5px 5px 10px red;
+}
+
+#main #navbar nav ul li a:hover
+{
+	color: white;
+	font-size: 1.1em;
+	border-radius: 20px;
+	border: 1px solid red;
+	box-shadow: 5px 5px 10px yellow;
+}
+
+#hamburger
+{
+	display: none;
+	float: left;
+}
+
+.hamburger
+{
+	width: 7.5%;
+	float: left;
+	background: none;
+	line-height: 40px;
+	color: #fcea10;
+	border: none;
+	font-size: 1.4em;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+
+.hamburger:hover
+{
+	text-shadow: 0px 0px 5px red;
+}
+
+.cross
+{
+	width: 7.5%;
+	float: left;
+	background: none;
+	line-height: 40px;
+	color: #fcea10;
+	border: none;
+	font-size: 3em;
+	position: relative;
+	top: 8px;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+
+.cross:hover
+{
+	text-shadow: 0px 0px 5px red;
+}
+
+/****************/
+/* Main Section */
+/****************/
+
+#mainSection
+{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+#mainSection .packages
+{
+	width: 17%;
+	margin: 50px 1.5%;
+	padding: 1%;
+	text-align: center;
+	float: left;
+	background-color: rgba(0,0,0,0.37);
+	border-top: 1px solid yellow;
+	border-left: 1px solid yellow;
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+	border-radius: 10px;
+}
+
+#mainSection .packages:hover
+{
+	border-top: 1px solid red;
+	border-left: 1px solid red;
+	border-bottom: 1px solid yellow;
+	border-right: 1px solid yellow;
+}
+
+#mainSection .packages img
+{
+	width: 100%;
+}
+
+#mainSection .packages h4
+{
+	margin-bottom: 10px;
+	font-size: 1.25em;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#mainSection .titleBlock 
+{
+	border-top: 4px solid red;
+	border-bottom: 4px solid yellow;
+	border-radius: 0 0 15px 15px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#mainSection .titleBlock h2
+{
+	font-size: 2em;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#mainSection .textBlock 
+{
+	margin: 20px 100px;
+	line-height: 20px;
+}
+
+#mainSection .textBlock p
+{
+	font-size: 1.25em;
+	line-height: 25px;
+}
+
+#mainSection .textBlock h3
+{
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+#mainSection .textBlock img
+{
+	margin-top: 20px;
+	width: 100%;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.yellow
+{
+	color: yellow;
+}
+
+#mainSection #bookNow
+{
+	background-color: rgba(255,255,255,0.75);
+	float: left;
+	width: 100%;
+	color: black;
+	padding: 10px;
+	line-height: 50px;
+	margin-bottom: 50px;
+}
+
+#mainSection #bookNow #bookNowR
+{
+	width: 40%;
+	float: right;
+}
+
+#mainSection #bookNow #bookNowR h2
+{
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#mainSection #bookNow #bookNowB
+{
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+	width: 20%;
+}
+
+#mainSection #bookNow #bookNowB button
+{
+	color: yellow;
+	background-color: red;
+	border: 2px solid yellow;
+	border-radius: 10px;
+	font-size: 1.75em;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#mainSection #bookNow #bookNowB button:hover
+{
+	color: red;
+	background-color: yellow;
+	border: 2px solid red;
+	font-size: 1.75em;
+	cursor: pointer;
+}
+
+#mainSection #bookNow #bookNowL
+{
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+
+#mainSection #bookNow #bookNowL h2
+{
+	font-size: 1.9em;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#mainSection #mainContent
+{
+	margin-bottom: 50px;
+}
+
+#mainSection #intro
+{
+	float: left;
+	background-color: rgba(255,255,255,0.75);
+	color: black;
+	width: 40%;
+	margin: 2%;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+#mainSection #intro h2
+{
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+#mainSection #intro p
+{
+	font-size: 1.25em;
+	line-height: 25px;
+}
+
+#mainSection #openHours
+{
+	float: left;
+	background-color: rgba(255,255,255,0.75);
+	color: black;
+	width: 40%;
+	margin: 2%;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+#mainSection #openHours p
+{
+	font-size: 1.25em;
+	line-height: 25px;
+}
+
+#mainSection #contactForm
+{
+	float: right;
+	background-color: rgba(255,255,255,0.75);
+	margin: 2%;
+	width: 40%;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+#mainSection #contactForm form
+{
+	margin: 20px;
+	padding: 5px;
+}
+
+#mainSection #contactForm h3
+{
+	font-size: 1.5em;
+	padding: 5px;
+	text-align: right;
+}
+
+#mainSection #contactForm fieldset
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#mainSection #contactForm form #submit
+{
+	float: right;
+	background-color: yellow;
+	color: red;
+	border: 1px solid red;
+	border-radius: 10px;
+	font-size: 1.5em;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#mainSection #contactForm form #submit:hover
+{
+	background-color: red;
+	color: yellow;
+	border: 1px solid yellow;
+	font-size: 1.5em;
+}
+
+#mainSection .invisible
+{
+	display: none;
+}
+
+#bookAdvised
+{
+	width: 100%;
+	background-color: rgba(255,255,255,0.75);
+	color: red;
+	float: left;
+	line-height: 50px;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Racing Sans One', cursive;
+	margin-bottom: 50px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+#mainSection #locContact
+{
+	float: left;
+	background-color: rgba(255,255,255,0.75);
+	color: black;
+	width: 50%;
+	margin: 2%;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #333;
+}
+
+#mainSection #locContact h2
+{
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+#mainSection #locContact p
+{
+	font-size: 1.25em;
+	line-height: 25px;
+}
+
+#mainSection #locMap
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#mainSection #locMap iframe
+{
+	width: 100%;
+	height: 450px;
+	border: 5px solid yellow;
+	border-radius: 10px;
+}
+
+#packageS .packages
+{
+	width: 22%;
+}
+
+#mainSection #packageDesc
+{
+	margin: 2%;
+}
+
+#mainSection #packageDesc h3
+{
+	font-size: 1.5em;
+	font-family: 'Racing Sans One', cursive;
+	line-height: 50px;
+}
+
+#mainSection #packageDesc p
+{
+	font-size: 1.2em;
+	line-height: 25px;
+}
+
+#mainSection figure
+{
+	float: left;
+	width: 20%;
+	margin: 2.5%;
+	border-top: 2px solid yellow;
+	border-left: 2px solid yellow;
+	border-right: 2px solid red;
+	border-bottom: 2px solid red;
+	border-radius: 50%;
+}
+
+#mainSection figure:hover
+{
+	border-bottom: 2px solid yellow;
+	border-right: 2px solid yellow;
+	border-left: 2px solid red;
+	border-top: 2px solid red;
+	border-radius: 25%;
+	cursor: pointer;
+}
+
+#mainSection figure img
+{
+	float: left;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#mainSection figure img:hover
+{
+	border-radius: 25%;
+}
+
+footer
+{
+	border-top: 4px solid white;
+	text-align: center;
+	padding: 1%;
+	border-radius: 15px;
+}
+
+footer p
+{
+	line-height: 25px;
+}
+
+
+@media screen and (max-width: 1025px)
+{
+	#main #topbar #leftSide img
+	{
+		height: 175px;
+	}
+	
+	#mainSection .packages
+	{
+		width: 46%;
+		margin: 50px 2%;
+	}
+}
+
+@media screen and (max-width: 769px)
+{
+	#main
+	{
+		width: 100%;
+	}
+	
+	#main #topbar #leftSide img
+	{
+		height: 150px;
+	}
+	
+	#main #navbar nav
+	{
+		position: absolute;
+		top: 170px;
+		background-color: #000;
+		border: 1px solid red;
+		border-radius: 10px;
+		padding-bottom: 10px;
+		width: 100%;
+		float: none;
+		display: none;
+	}
+	
+	#main #navbar nav ul
+	{
+		width: 100%;
+		border: none;
+		float: none; 
+	}
+	
+	#main #navbar nav ul li
+	{
+		width: 100%;
+		float: none;
+		font-size: 2em;
+	}
+	
+	#hamburger
+	{
+		display: inline-block;
+		position: absolute;
+		top: 140px;
+	}
+	
+	.hamburger, .cross
+	{
+		width: 20%;
+	}
+	
+	#mainSection #contactForm
+	{
+		margin: 4%;
+		width: 92%;
+	}
+	
+	#mainSection #openHours
+	{
+		width: 92%;
+		margin: 4%;
+	}
+	
+	#mainSection #intro
+	{
+		width: 92%;
+		margin: 4%;
+	}
+	
+	#mainSection .textBlock 
+	{
+		margin: 20px 25px;
+		line-height: 20px;
+	}
+	
+	#mainSection figure
+	{
+		width: 45%;
+		margin: 2.5%;
+	}
+	
+	#mainSection #locContact
+	{
+		width: 92%;
+		margin: 4%;
+	}
+}
+
+@media screen and (max-width: 641px)
+{
+	#main #topbar #leftSide
+	{
+		width: 75%;
+	}
+	
+	#main #topbar #rightSide
+	{
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 481px)
+{
+	#main #topbar #leftSide img
+	{
+		height: 100px;
+	}
+	
+	#mainSection .packages
+	{
+		width: 90%;
+		margin: 50px 5%;
+	}
+	
+	#mainSection #bookNow #bookNowR
+	{
+		width: 100%;
+	}
+	
+	#mainSection #bookNow #bookNowL
+	{
+		width: 100%;
+	}
+	
+	#mainSection #bookNow #bookNowB
+	{
+		width: 100%;
+	}
+	
+	#mainSection figure
+	{
+		width: 90%;
+		margin: 5%;
+	}
+	
+	#mainSection #locMap iframe
+	{
+		height: 300px;
+	}
+}
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
